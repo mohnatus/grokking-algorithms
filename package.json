@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "binary-search": "node Chapter-1/binarySearch.js",
-    "selection-sort": "node Chapter-2/selectionSort.js"
+    "selection-sort": "node Chapter-2/selectionSort.js",
+    "factorial": "node Chapter-3/factorial.js"
   },
   "repository": {
     "type": "git",
