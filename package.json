@@ -11,7 +11,8 @@
     "recursive-sum": "node Chapter-4/recursive-sum.js",
     "recursive-max": "node Chapter-4/recursive-max.js",
     "recursive-binary-search": "node Chapter-4/recursive-binary-search.js",
-    "quick-sort": "node Chapter-4/quick-sort.js"
+    "quick-sort": "node Chapter-4/quick-sort.js",
+    "breadth-first-search": "node Chapter-6/breadth-first-search.js"
   },
   "repository": {
     "type": "git",
