@@ -14,7 +14,9 @@
     "quick-sort": "node Chapter-4/quick-sort.js",
     "breadth-first-search": "node Chapter-6/breadth-first-search.js",
     "dijkstra": "node Chapter-7/dijkstra.js",
-    "dijkstra-exersizes": "node Chapter-7/exersizes.js"
+    "dijkstra-exersizes": "node Chapter-7/exersizes.js",
+    "greedy-shedule": "node Chapter-8/shedule.js",
+    "greedy-set": "node Chapter-8/radio.js"
   },
   "repository": {
     "type": "git",
