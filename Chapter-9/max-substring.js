@@ -39,3 +39,4 @@ console.log(getMaxSubsctring('hello','')); // 0
 console.log(getMaxSubsctring('','hello')); // 0
 console.log(getMaxSubsctring('hello', 'world')); // 1
 console.log(getMaxSubsctring('abcdef', 'axbxcxdx')); // 1
+console.log(getMaxSubsctring('blue', 'clues')); // 1

@@ -19,7 +19,7 @@
     "greedy-shedule": "node Chapter-8/shedule.js",
     "greedy-set": "node Chapter-8/radio.js",
     "knapsack": "node Chapter-9/knapsack.js",
-    "max-subscring": "node Chapter-9/max-substring.js",
+    "max-substring": "node Chapter-9/max-substring.js",
     "max-subsequence": "node Chapter-9/max-subsequence.js"
   },
   "repository": {
