@@ -78,7 +78,7 @@ binarySearch(sortedList, 7); // 3
 binarySearch(sortedList, -1); // undefined
 ```
 
-[Код функции binarySearch](./binarySearch.js)
+[Код функции binarySearch](./binary-search.js)
 
 Команда для проверки:
 

@@ -1,4 +1,4 @@
-const binarySearch = require('./binarySearch');
+const binarySearch = require('./binary-search');
 
 
 const sortedList = [1, 3, 5, 7, 9];
