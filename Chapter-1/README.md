@@ -72,7 +72,7 @@ binarySearch(sortedList, 7); // 3
 binarySearch(sortedList, -1); // undefined
 ```
 
-[Код](./index.js)
+[Код binarySearch](./binarySearch.js)
 
 **Проверка**
 

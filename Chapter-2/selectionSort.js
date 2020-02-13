@@ -12,7 +12,7 @@ function findSmallest(list) {
   return smallestIndex;
 }
 
-function selectionSort(list) {
+module.exports = function selectionSort(list) {
   let sortedList = [];
 
   for (let i = 0, count = list.length; i < count; i++) {
@@ -22,6 +22,3 @@ function selectionSort(list) {
 
   return sortedList;
 }
-
-const unsortedList = [5, 3, 4, 1, 2];
-console.log(selectionSort(unsortedList)); // [1,2,3,4,5]
