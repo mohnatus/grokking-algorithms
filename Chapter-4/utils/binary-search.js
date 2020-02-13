@@ -1,4 +1,4 @@
-function binarySearch(arr, value, low, high) {
+module.exports = function binarySearch(arr, value, low, high) {
   low = low || 0;
   high = high || arr.length - 1;
 
@@ -20,9 +20,3 @@ function binarySearch(arr, value, low, high) {
 
   return binarySearch(arr, value, low, high);
 }
-
-const sortedList = [1, 3, 5, 7, 9];
-
-console.log(binarySearch(sortedList, 1)); // 0
-console.log(binarySearch(sortedList, 7)); // 3
-console.log(binarySearch(sortedList, -1)); // undefined

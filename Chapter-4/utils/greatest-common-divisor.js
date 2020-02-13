@@ -1,4 +1,4 @@
-function gcd(number1, number2) {
+module.exports = function gcd(number1, number2) {
   if (number1 === number2) return number1;
 
   let max = Math.max(number1, number2);
@@ -14,5 +14,3 @@ function gcd(number1, number2) {
 
   return min;
 }
-
-module.exports = gcd;

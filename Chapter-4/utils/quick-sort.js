@@ -1,4 +1,4 @@
-function quickSort(arr) {
+module.exports = function quickSort(arr) {
   // базовый случай
   if (arr.length < 2) return arr;
 
@@ -11,5 +11,3 @@ function quickSort(arr) {
 
   return [...quickSort(less), pivot, ...quickSort(greater)];
 }
-
-console.log(quickSort([10, 5, 2, 3]));
