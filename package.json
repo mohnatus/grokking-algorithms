@@ -13,7 +13,7 @@
     "recursive-max": "node Chapter-4/scripts/recursive-max.js",
     "recursive-binary-search": "node Chapter-4/scripts/recursive-binary-search.js",
     "quick-sort": "node Chapter-4/scripts/quick-sort.js",
-    "breadth-first-search": "node Chapter-6/breadth-first-search.js",
+    "breadth-first-search": "node Chapter-6/index.js",
     "dijkstra": "node Chapter-7/dijkstra.js",
     "dijkstra-exersizes": "node Chapter-7/exersizes.js",
     "greedy-shedule": "node Chapter-8/shedule.js",

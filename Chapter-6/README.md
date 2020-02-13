@@ -40,6 +40,33 @@
 Важно отмечать уже проверенные связи, так как иначе может возникнуть бесконечный цикл проверки, или некоторые узлы будут проверяться несколько раз.
 
 ```
+// граф друзей на фейсбуке
+const graph = {
+  'you': ['alice', 'bob', 'claire'],
+  'bob': ['anuj', 'peggy'],
+  'alice': ['peggy', 'maxim'],
+  'claire': ['thom', 'jonny'],
+  'anuj': [],
+  'peggy': [],
+  'thom': [],
+  'jonny': [],
+  'maxim': [],
+};
+
+// проверка, является ли человек продавцом манго
+function isMangoSeller(name) {
+  return name[name.length - 1] === 'm';
+}
+
+breadthFirstSearch(graph, 'you', isMangoSeller); // maxim
+breadthFirstSearch(graph, 'claire', isMangoSeller); // thom
+```
+
+[Код breadthFirstSearch](./breadth-first-search.js)
+
+**Проверка**
+
+```
 npm run breadth-first-search
 ```
 
