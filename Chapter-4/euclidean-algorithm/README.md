@@ -19,7 +19,7 @@ gcd(10, 35); // 5
 gcd(13, 7); // 1
 ```
 
-[Код gcd](../utils/greatest-common-divisor.js)
+[Код gcd](./greatest-common-divisor.js)
 
 **Проверка**
 

@@ -1,4 +1,4 @@
-const binarySearch = require('../utils/binary-search');
+const binarySearch = require('./recursive-binary-search');
 
 const sortedList = [1, 3, 5, 7, 9];
 
