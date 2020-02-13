@@ -62,7 +62,13 @@
 
 **Время выполнения**: логарифмическое - `O(log n)`
 
-### Пример
+
+***
+***
+
+**Бинарный поиск в отсортированном массиве**
+
+Код:
 
 ```
 const sortedList = [1, 3, 5, 7, 9];
@@ -72,13 +78,17 @@ binarySearch(sortedList, 7); // 3
 binarySearch(sortedList, -1); // undefined
 ```
 
-[Код binarySearch](./binarySearch.js)
+[Код функции binarySearch](./binarySearch.js)
 
-**Проверка**
+Команда для проверки:
 
 ```
 npm run binary-search
 ```
+
+***
+***
+
 
 ## Задача о коммивояжере
 
