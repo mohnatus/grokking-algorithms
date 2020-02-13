@@ -39,6 +39,13 @@
 
 Важно отмечать уже проверенные связи, так как иначе может возникнуть бесконечный цикл проверки, или некоторые узлы будут проверяться несколько раз.
 
+***
+***
+
+**Поиск продавца манго с помощью алгоритма поиск в ширину (в графе)**
+
+Код:
+
 ```
 // граф друзей на фейсбуке
 const graph = {
@@ -62,13 +69,16 @@ breadthFirstSearch(graph, 'you', isMangoSeller); // maxim
 breadthFirstSearch(graph, 'claire', isMangoSeller); // thom
 ```
 
-[Код breadthFirstSearch](./breadth-first-search.js)
+[Код функции breadthFirstSearch](./breadth-first-search.js)
 
-**Проверка**
+Команда для проверки:
 
 ```
 npm run breadth-first-search
 ```
+
+***
+***
 
 ### Время выполнения
 
