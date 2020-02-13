@@ -62,6 +62,20 @@
 
 **Время выполнения**: логарифмическое - `O(log n)`
 
+### Пример
+
+```
+const sortedList = [1, 3, 5, 7, 9];
+
+binarySearch(sortedList, 1); // 0
+binarySearch(sortedList, 7); // 3
+binarySearch(sortedList, -1); // undefined
+```
+
+[Код](./index.js)
+
+**Проверка**
+
 ```
 npm run binary-search
 ```

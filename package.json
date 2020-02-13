@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "binary-search": "node Chapter-1/binarySearch.js",
+    "binary-search": "node Chapter-1/index.js",
     "selection-sort": "node Chapter-2/selectionSort.js",
     "factorial": "node Chapter-3/factorial.js",
     "gcd": "node Chapter-4/gcd.js",
