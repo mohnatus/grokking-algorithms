@@ -1,4 +1,4 @@
-const greedySet = require('./greedy-set/index.js');
+const greedySet = require('./greedy-set.js');
 
 // штаты, которые нужно покрыть
 let statesNeeded = new Set(["mt", "wa", "or", "id", "nv", "ut", "са", "az"]);
@@ -12,4 +12,4 @@ const stations = {
   "kfive": new Set(["ca", "az"])
 };
 
-console.log(greedySet(statesNeeded, stations));
+console.log(greedySet(statesNeeded, stations)); // { 'kone', 'ktwo', 'kthree', 'kfive' }

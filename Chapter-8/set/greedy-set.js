@@ -18,7 +18,8 @@ const getBestSubset = (setToCover, subsets) => {
 	return bestSubset;
 };
 
-module.exports = (set, subsets) => {
+module.exports =
+(set, subsets) => {
   let setToCover = new Set([...set]);
 	// оптимальный набор подмножеств
 	const finalSet = new Set();

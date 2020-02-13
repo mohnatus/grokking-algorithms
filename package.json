@@ -16,8 +16,8 @@
     "breadth-first-search": "node Chapter-6/index.js",
     "dijkstra": "node Chapter-7/index.js",
     "dijkstra-exersizes": "node Chapter-7/exersizes/index.js",
-    "greedy-shedule": "node Chapter-8/shedule.js",
-    "greedy-set": "node Chapter-8/radio.js",
+    "greedy-shedule": "node Chapter-8/shedule/index.js",
+    "greedy-set": "node Chapter-8/set/index.js",
     "knapsack": "node Chapter-9/knapsack.js",
     "max-substring": "node Chapter-9/max-substring.js",
     "max-subsequence": "node Chapter-9/max-subsequence.js"
