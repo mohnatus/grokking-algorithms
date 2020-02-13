@@ -1,5 +1,5 @@
-function factorial(number) {
-  if (number <= 0) throw new Error('Number parametn must be a positive number');
+module.exports = function factorial(number) {
+  if (number <= 0) throw new Error('Number parametr must be a positive number');
 
   // базовый случай
   if (number == 1) return 1;
@@ -7,8 +7,3 @@ function factorial(number) {
   // рекурсивный случай
   return number * factorial(number - 1);
 }
-
-console.log(factorial(3)); // 6
-console.log(factorial(6)); // 720
-console.log(factorial(1)); // 1
-console.log(factorial(-1)); // Error

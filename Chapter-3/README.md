@@ -15,6 +15,19 @@
 
 Самый известный пример рекурсии - вычисление факториала.
 
+## Пример
+
+```
+factorial(3); // 6
+factorial(6); // 720
+factorial(1); // 1
+factorial(-1); // Error
+```
+
+[Код factorial](./factorial.js)
+
+**Проверка**
+
 ```
 npm run factorial
 ```
