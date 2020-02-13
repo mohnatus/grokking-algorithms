@@ -18,9 +18,10 @@
     "dijkstra-exersizes": "node Chapter-7/exersizes/index.js",
     "greedy-shedule": "node Chapter-8/shedule/index.js",
     "greedy-set": "node Chapter-8/set/index.js",
-    "knapsack": "node Chapter-9/knapsack.js",
-    "max-substring": "node Chapter-9/max-substring.js",
-    "max-subsequence": "node Chapter-9/max-subsequence.js"
+    "knapsack": "node Chapter-9/knapsack/index.js",
+    "knapsack-places": "node Chapter-9/places/index.js",
+    "max-substring": "node Chapter-9/subsequence/substring.js",
+    "max-subsequence": "node Chapter-9/subsequence/subsequence.js"
   },
   "repository": {
     "type": "git",

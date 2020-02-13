@@ -1,6 +1,7 @@
-const gcd = require('../Chapter-4/greatest-common-divisor');
+const gcd = require('../../Chapter-4/euclidean-algorithm/greatest-common-divisor');
 
-function knapsack(items, totalSize) {
+
+module.exports = function knapsack(items, totalSize) {
 	let sizes = items.map(item => item.size).sort((a, b) => a - b);
 	let minSize = gcd(totalSize, sizes[0]);
 	sizes.forEach(size => {
@@ -56,61 +57,3 @@ function knapsack(items, totalSize) {
 
 	return table[rows - 1][cols - 1];
 }
-
-const recorder = {
-	name: 'Магнитофон',
-	price: 3000,
-	size: 4
-};
-const laptop = {
-	name: 'Ноутбук',
-	price: 2000,
-	size: 3
-};
-const guitar = {
-	name: 'Гитара',
-	price: 1500,
-	size: 1
-};
-const iPhone = {
-	name: 'iPhone',
-	price: 2000,
-	size: 1
-};
-const player = {
-  name: "MP3 player",
-  price: 1000,
-  size: 1
-};
-
-console.log(knapsack([recorder, laptop, guitar], 4)); // 3500, Ноутбук + Гитара
-console.log(knapsack([recorder, laptop, guitar, iPhone], 4)); // 4000, iPhone + Ноутбук
-console.log(knapsack([recorder, laptop, guitar, iPhone, player], 4)); // 4500, плеер+ iPhone + Гитара
-
-
-const places = [
-  {
-    name: "Westminster Abbey",
-    price: 7,
-    size: 0.5
-  },{
-    name: "Globus Theatre",
-    price: 6,
-    size: 0.5
-  },{
-    name: "National Gallery",
-    price: 9,
-    size: 1
-  },{
-    name: "British Museum",
-    price: 9,
-    size: 2
-  },{
-    name: "St Paul's Cathedral",
-    price: 8,
-    size: 0.5
-  }
-]
-
-
-console.log(knapsack(places, 2)); // 24, Westminster Abbey + National Gallery + St Paul's Cathedral
