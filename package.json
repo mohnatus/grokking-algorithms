@@ -8,6 +8,7 @@
     "binary-search": "node Chapter-1/binarySearch.js",
     "selection-sort": "node Chapter-2/selectionSort.js",
     "factorial": "node Chapter-3/factorial.js",
+    "gcd": "node Chapter-4/gcd.js",
     "recursive-sum": "node Chapter-4/recursive-sum.js",
     "recursive-max": "node Chapter-4/recursive-max.js",
     "recursive-binary-search": "node Chapter-4/recursive-binary-search.js",
@@ -16,7 +17,10 @@
     "dijkstra": "node Chapter-7/dijkstra.js",
     "dijkstra-exersizes": "node Chapter-7/exersizes.js",
     "greedy-shedule": "node Chapter-8/shedule.js",
-    "greedy-set": "node Chapter-8/radio.js"
+    "greedy-set": "node Chapter-8/radio.js",
+    "knapsack": "node Chapter-9/knapsack.js",
+    "max-subscring": "node Chapter-9/max-substring.js",
+    "max-subsequence": "node Chapter-9/max-subsequence.js"
   },
   "repository": {
     "type": "git",
