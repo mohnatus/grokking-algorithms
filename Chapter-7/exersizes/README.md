@@ -1,0 +1,9 @@
+# Упражнения к главе 7
+
+![](./exersizes.png)
+
+Команда для проверки:
+
+```
+npm run dijkstra-exersizes
+```

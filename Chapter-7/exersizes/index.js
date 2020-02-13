@@ -1,4 +1,4 @@
-const dijkstra = require('./dijkstra/index.js');
+const dijkstra = require('../dijkstra');
 
 const graphA = {
   "start": {
